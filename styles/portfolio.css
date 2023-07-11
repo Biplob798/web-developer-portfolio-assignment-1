@@ -1,7 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
 header{
     max-width: 100%;
@@ -10,8 +6,9 @@ header{
 }
 
 .header{
- background: rgba(237, 231, 232, 0.1);
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(237, 231, 232, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 200px;
 
 
 }
@@ -74,8 +71,9 @@ li a{
 }
 
     
-.banner .banner-photo {
+.banner-photo {
     width: 500px;
+    background-position: bottom;
 
 }
 
@@ -114,6 +112,10 @@ li a{
     
 }
 /* main section about*/
+.about-title{
+    text-align: center;
+    margin-left: 650px;
+}
 main{
     max-width: 1140px;
     margin: o auto;
@@ -160,19 +162,39 @@ main{
     font-size: 24px;
     font-weight: 700;
     padding: 10px;
-   text-decoration: underline;
+    margin-top:50px;
+    text-decoration: underline;
 }
 .photo{
+    margin-left: 100px;
+    display: flex;
     width: 464px;
     height: 538px;
-    background-color: rgba(117, 92, 117, 0.641);
     border-radius: 300px 300px 0px 0px;
 }
+.about-info-1{
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+
+}
+.about-info-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+.about-info-3{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+
+}
+
 /*services styles add*/
 .services{
     display: flex;
     padding-left: 42px;
-    gap: 455px;
+    gap: 355px;
+    margin-left: 350px;
+    margin-bottom: 150px;
+    margin-top: 150px;
 }
 .primary-text{
     text-align: center;
@@ -182,9 +204,12 @@ main{
 }
 /*offer-photo*/
 .offer-photo{
+   background-color: antiquewhite;
     display: flex;
-    width: 1922;
-    height: 620;
+    justify-content: space-between;
+    gap: 150px;
+    margin-left: 500px;
+
 }
 .offer{
     text-align: center;
@@ -196,22 +221,33 @@ main{
     height: 420px;
 }
 /*social gallery*/
+.heading{
+    text-align: center;
+    margin-left: 650px;
+    padding-top: 150px;
+}
 .social-gallery{
     display: flex;
-    margin: 18px;
+    justify-content: space-between;
+    gap: 35px;
+    margin-left: 200px;
+    margin-top: 120px;
 }
 .social-media{
     text-align: center;
 
 }
 .p-1{
-    margin: 6px;
-    border: 3px;
-    background-color: cadetblue;
+    height: 400px;
+    width: 350px;
 }
 /*contact section*/
 .contact{
+
     text-align: center;
+    margin-left: 450px;
+    margin-top: 200px;
+    margin-bottom: 200px;
     
 }
 
@@ -225,4 +261,8 @@ main{
     background-color: #9aa727;
     padding: 16px;
     margin-top: 16px;
+    margin-bottom: 200px;
+}
+.footer-7{
+   background-color: #E55473;
 }
