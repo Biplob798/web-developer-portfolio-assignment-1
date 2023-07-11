@@ -137,7 +137,10 @@ main{
     gap: 24px;
 }
 .section-description{
+    margin: auto;
     color: #181818;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-size: 16px;
     font-weight: 400px;
@@ -145,13 +148,12 @@ main{
 
 }
 .about-info-container{
+
     display: flex;
     padding-left: 42px;
     gap: 24px;
+
    
-}
-.about-info{
-    border: #E55473;
 }
 .primary-text{
     text-align: center;
@@ -165,4 +167,31 @@ main{
     height: 538px;
     background-color: rgba(117, 92, 117, 0.641);
     border-radius: 300px 300px 0px 0px;
+}
+/*services styles add*/
+.services{
+    display: flex;
+    padding-left: 42px;
+    gap: 455px;
+}
+.primary-text{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px;
+}
+/*offer-photo*/
+.offer-photo{
+    display: flex;
+    width: 1922;
+    height: 620;
+}
+.offer{
+    text-align: center;
+    padding-top: 150px ;
+
+}
+.photo-8{
+    width: 315px;
+    height: 420px;
 }
