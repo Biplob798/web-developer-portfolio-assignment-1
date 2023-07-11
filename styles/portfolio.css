@@ -195,3 +195,34 @@ main{
     width: 315px;
     height: 420px;
 }
+/*social gallery*/
+.social-gallery{
+    display: flex;
+    margin: 18px;
+}
+.social-media{
+    text-align: center;
+
+}
+.p-1{
+    margin: 6px;
+    border: 3px;
+    background-color: cadetblue;
+}
+/*contact section*/
+.contact{
+    text-align: center;
+    
+}
+
+.email{
+    height: 38px;
+    width: 500px;
+}
+/*footer*/
+.footer{
+    text-align: center;
+    background-color: #9aa727;
+    padding: 16px;
+    margin-top: 16px;
+}
